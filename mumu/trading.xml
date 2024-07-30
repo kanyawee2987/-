@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trading.xsl"?>
+<!DOCTYPE products [
+    <!ELEMENT products (product*)>
+    <!ELEMENT product (id, name, price, quantity, balance)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+    <!ELEMENT balance (#PCDATA)>
+]>
+<products>
+    <product>
+        <id>A001</id>
+        <name>country Stream</name>
+        <price>280 บาท</price>
+        <quantity>1 ชิ้น</quantity>
+        <balance>998 ชิ้น</balance>
+    </product>
+    <product>
+        <id>A002</id>
+        <name>Lucas Papaw</name>
+        <price>350 บาท</price>
+        <quantity>6 ชิ้น</quantity>
+        <balance>993 ชิ้น</balance>
+    </product>
+    <product>
+        <id>A003</id>
+        <name>Himalaya</name>
+        <price>109 บาท</price>
+        <quantity>1 ชิ้น</quantity>
+        <balance>998 ชิ้น</balance>
+    </product>
+    <product>
+        <id>A004</id>
+        <name>Dior Addict Lip Glow</name>
+        <price>1,390 บาท</price>
+        <quantity>3 ชิ้น</quantity>
+        <balance>996 ชิ้น</balance>
+    </product>
+    <product>
+        <id>A005</id>
+        <name>Cermex Classic Lip Balm</name>
+        <price>135 บาท</price>
+        <quantity>2 ชิ้น</quantity>
+        <balance>997 ชิ้น</balance>
+    </product>
+</products>
