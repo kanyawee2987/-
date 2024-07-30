@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="product.xsl"?>
+
+<!DOCTYPE members [
+    <!ELEMENT members (member*)>
+    <!ELEMENT member (id, name, lastname, tel, quantity)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT tel (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+]>
+<product>
+    <productdata>
+        <id>A001</id>
+        <name>country Stream</name>
+        <productt>เนื้อผลิตภัณฑ์ : ตัวลิปบาล์มสีเหลืองอ่อน ๆ เวลาทาไม่มีสี มีกลิ่นหอมน้ำผึ้งอ่อน ๆ
+                    เหมาะกับ : ใช้ได้กับทุกคน และสำหรับใครที่มีปัญหาเรื่องสีลิปสติกยิ่งเหมาะกับแท่งนี้</productt>
+        <price>280 บาท</price>
+        <quantity>999 ชิ้น</quantity>
+    </productdata>
+    <productdata>
+        <id>A002</id>
+        <name>Lucas Papaw</name>
+        <productt>เนื้อผลิตภัณฑ์ : เป็นเนื้อแบบข้น สีเหลืองจาก ๆ ตอนทาไม่มีสี
+                เหมาะกับ : อันนี้เหมาะกับสาวที่ต้องการลิปบาล์มสารพัดประโยชน์</productt>
+        <price>350 บาท</price>
+        <quantity>999 ชิ้น</quantity>
+    </productdata>
+    <productdata>
+        <id>A003</id>
+        <name>Lucas Papaw</name>
+        <productt>เนื้อผลิตภัณฑ์ : เนื้อลิปสีใส มีกลิ่นหอมอ่อนๆ
+                เหมาะกับ : เป็นลิปมันแก้ปากแห้งที่ช่วยเพิ่มความชุ่มชื้น ลดการแตกลอกเป็นขุยได้อย่างดี
+                แถมลิปแก้ปากดำตัวนี้ยังอุดมด้วยวิตามินอีที่ช่วยฟื้นฟูริมฝีปากให้สวยอวบอิ่ม และยังมีคุณสมบัติช่วยปกป้อง UV</productt>
+        <price>109 บาท</price>
+        <quantity>999 ชิ้น</quantity>
+    </productdata>
+    <productdata>
+        <id>A004</id>
+        <name>Dior Addict Lip Glow</name>
+        <productt>เนื้อผลิตภัณฑ์ : มีให้เลือก 3 แบบ คือ Original Glow,
+                Matte และ Holographic
+                เหมาะกับ : สาวที่ชอบทาลิปบาล์มมากกว่าลิปสติก</productt>
+        <price>1,390 บาท</price>
+        <quantity>999 ชิ้น</quantity>
+    </productdata>
+    <productdata>
+        <id>A005</id>
+        <name>Cermex Classic Lip Balm</name>
+        <productt>เนื้อผลิตภัณฑ์ : เนื้อข้น ๆ สีเหลืองใส ตอนทาบนริมฝีปากไม่มีสี
+                เหมาะกับ : คนที่ต้องการบำรุงริมฝีปากแบบเร่งด่วนมาก ๆ </productt>
+        <price>135 บาท</price>
+        <quantity>999 ชิ้น</quantity>
+    </productdata>
+</product>

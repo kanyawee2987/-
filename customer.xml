@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<!DOCTYPE members [
+    <!ELEMENT members (member*)>
+    <!ELEMENT member (id, name, lastname, tel, quantity)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT tel (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+]>
+<members>
+    <member>
+        <id>A110</id>
+        <name>อัศวิน</name>
+        <lastname>องอาจ</lastname>
+        <tel>098******* </tel>
+        <quantity>1 ชิ้น</quantity>
+    </member>
+    <member>
+        <id>A111</id>
+        <name>อัครเดช</name>
+        <lastname>มีสุข</lastname>
+        <tel>097*******</tel>
+        <quantity>1 ชิ้น</quantity>
+    </member>
+    <member>
+        <id>A112</id>
+        <name>ศศิดา</name>
+        <lastname>บุรธนม์</lastname>
+        <tel>095*******</tel>
+        <quantity>3 ชิ้น</quantity>
+    </member>
+    <member>
+        <id>A113</id>
+        <name>ไอศวรรยา</name>
+        <lastname>บุรธนม์</lastname>
+        <tel>095*******</tel>
+        <quantity>5 ชิ้น</quantity>
+    </member>
+    <member>
+        <id>A114</id>
+        <name>วรรณวิษา</name>
+        <lastname>เกิดสุข</lastname>
+        <tel>098*******</tel>
+        <quantity>3 ชิ้น</quantity>
+    </member>
+</members>

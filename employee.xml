@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<!DOCTYPE employees [
+    <!ELEMENT employees (employee*)>
+    <!ELEMENT employee (id, name, lastname, age, tel)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT tel (#PCDATA)>
+]>
+<employees>
+    <employee>
+        <id>M001</id>
+        <name>กันภัย</name>
+        <lastname>สุขสันต์ภัย</lastname>
+        <age>29 ปี</age>
+        <tel>090*******</tel>
+    </employee>
+    <employee>
+        <id>M002</id>
+        <name>ปราณี</name>
+        <lastname>วิไล</lastname>
+        <age>35 ปี</age>
+        <tel>097*******</tel>
+    </employee>
+    <employee>
+        <id>M003</id>
+        <name>อรอุมา</name>
+        <lastname>สร้อยทอง</lastname>
+        <age>26 ปี</age>
+        <tel>095*******</tel>
+    </employee>
+    <employee>
+        <id>M004</id>
+        <name>วิไลรัตน์ภา</name>
+        <lastname>อรุณพิมุริย์</lastname>
+        <age>31 ปี</age>
+        <tel>090*******</tel>
+    </employee>
+    <employee>
+        <id>M005</id>
+        <name>กาญจนา</name>
+        <lastname>ทองสมบูรณ์</lastname>
+        <age>40 ปี</age>
+        <tel>091*******</tel>
+    </employee>
+</employees>
